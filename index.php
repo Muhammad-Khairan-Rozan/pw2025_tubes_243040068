@@ -67,7 +67,8 @@ $result = mysqli_query($conn, $query);
           <h3><?= htmlspecialchars($row['title']) ?></h3>
           <p><strong>Lokasi:</strong> <?= htmlspecialchars($row['location']) ?></p>
           <p><strong>Tanggal:</strong> <?= date("d M Y", strtotime($row['event_date'])) ?></p>
-          <a href="detail.php?id=<?= $row['id'] ?>">Lihat Detail</a>
+          <a href="event_detail.php?id=<?= $row['id']; ?>" class="btn btn-success">Lihat Detail</a>
+
         </div>
       </div>
     <?php endwhile; ?>
