@@ -6,7 +6,7 @@ include 'inc/db.php';
 
 $id = $_GET['id'];
 
-// Ambil gambar untuk dihapus juga dari folder
+
 $result = mysqli_query($conn, "SELECT image FROM events WHERE id=$id");
 $data = mysqli_fetch_assoc($result);
 if ($data) {

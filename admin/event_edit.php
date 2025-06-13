@@ -71,7 +71,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   <label>Gambar Saat Ini:</label><br>
   <img src="../assets/img/<?= $event['image']; ?>" width="150"><br><br>
 
-  <label>Upload Gambar Baru (Opsional):</label><br>
+  <label>Upload Gambar Baru:</label><br>
   <input type="file" name="image" accept=".jpg,.jpeg,.png"><br><br>
 
   <button type="submit">Simpan Perubahan</button>
