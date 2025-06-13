@@ -154,11 +154,15 @@ $result = mysqli_query($conn, $query);
 
     .hero2 {
       background: #fff6e9;
-      border-bottom-right-radius: 200px;
+      border-bottom-right-radius: 400px;
     }
 
     .hero-content2 {
       background: #fff6e9;
+    }
+
+    .hero-text2 {
+      text-align: left;
     }
 
     .login-btn {
@@ -223,9 +227,11 @@ $result = mysqli_query($conn, $query);
     </div>
     <div class="gallery">
       <img src="assets/img/39588-festival-jajanan-minang-2019-suaracomrisna.jpg" alt="Gambar 1">
-      <img src="assets/img/68492bed288db.jpg" alt="Gambar 2">
-      <img src="assets/img/1749723903_1395849458p.jpg" alt="Gambar 3">
-      <img src="assets/img/festival-sate-matang-aceh-jjl2-dom.webp" alt="Gambar 4">
+      <img src="assets/img/44939_650.jpg" alt="Gambar 2">
+      <img src="assets/img/1749841232_IMG-20190330-WA0015.jpg" alt="Gambar 3">
+      <img src="assets/img/duduk.jpg" alt="Gambar 4">
+      <img src="assets/img/festival-tjemilan-tije-14etc-dom.jpg" alt="Gambar 5">
+      <img src="assets/img/duduk2.jpg" alt="Gambar 6">
     </div>
 
   </section>
